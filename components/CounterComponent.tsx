@@ -77,7 +77,7 @@ const CounterComponent = (props: any) => {
                         </div>
                         <div className="ltr:pl-4 rtl:pr-4">
                             <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
-                                <CountUp start={0} end={120} duration={4} suffix="+"></CountUp>
+                                <CountUp start={0} end={40} duration={4} suffix="+"></CountUp>
                             </h4>
                             <span className="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Team Members</span>
                         </div>
@@ -114,7 +114,7 @@ const CounterComponent = (props: any) => {
                         </div>
                         <div className="ltr:pl-4 rtl:pr-4">
                             <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
-                                <CountUp start={0} end={350} duration={4} suffix="+"></CountUp>{' '}
+                                <CountUp start={0} end={100} duration={4} suffix="+"></CountUp>{' '}
                             </h4>
                             <span className="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Happy Clients</span>
                         </div>
@@ -151,7 +151,7 @@ const CounterComponent = (props: any) => {
                         </div>
                         <div className="ltr:pl-4 rtl:pr-4">
                             <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
-                                <CountUp start={0} end={1254} duration={4} suffix="+"></CountUp>{' '}
+                                <CountUp start={0} end={125} duration={4} suffix="+"></CountUp>{' '}
                             </h4>
                             <span className="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Project Done</span>
                         </div>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 92 124">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: url(#linear-gradient1);
+      }
+
+      .st0, .st1, .st2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3.4px;
+      }
+
+      .st1 {
+        stroke: #ff485a;
+      }
+
+      .st2 {
+        stroke: url(#linear-gradient2);
+      }
+
+      .st3 {
+        fill: url(#linear-gradient);
+        fill-opacity: .24;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="46" y1="124" x2="46" y2="22" gradientTransform="translate(0 124) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff0007"/>
+      <stop offset="1" stop-color="#47bdff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="54.48" y1="36.52" x2="37.98" y2="20.02" gradientTransform="translate(0 124) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6a6e"/>
+      <stop offset="1" stop-color="#ff2a30" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="69.1" y1="51.91" x2="44.1" y2="25.41" gradientTransform="translate(0 124) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff0007"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path class="st3" d="M0,20C0,8.95,8.95,0,20,0h52c11.05,0,20,8.95,20,20v82H0V20Z"/>
+  <path class="st1" d="M59.88,105.26v10.81c0,.82-.33,1.61-.9,2.18-.58.58-1.36.9-2.18.9h-30.88c-.82,0-1.6-.33-2.18-.9-.58-.58-.9-1.37-.9-2.18v-30.88c0-.82.33-1.6.91-2.18.58-.58,1.36-.91,2.18-.91h10.83"/>
+  <path class="st0" d="M39.8,102.18l13.96-13.98"/>
+  <path class="st2" d="M69,72.96c-1.78-.2-3.57-.2-5.35,0l-4.8,7.62-2.94-5.48c-10.66,5.25-14.84,17.91-10.89,21.86,5.29,5.21,26.27-3.99,23.99-24.01Z"/>
+</svg>

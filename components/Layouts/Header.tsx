@@ -57,18 +57,7 @@ const Header = (props: any) => {
                                     </Link>
                                 </li>
                                 <li className="group relative" onClick={(e) => e.stopPropagation()}>
-                                    <Link
-                                        href="#"
-                                        className={
-                                            router.pathname === '/modern-saas' ||
-                                            router.pathname === '/marketing' ||
-                                            router.pathname === '/online-courses' ||
-                                            router.pathname === '/creative-agency' ||
-                                            router.pathname === '/personal-portfolio'
-                                                ? 'active'
-                                                : ''
-                                        }
-                                    >
+                                    <Link href="#" className={router.pathname === '/analytics' ? 'active' : ''}>
                                         Products
                                         <div className="transition duration-500 group-hover:rotate-180 ltr:ml-2 rtl:mr-2">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,50 +72,11 @@ const Header = (props: any) => {
                                         </div>
                                     </Link>
                                     <div className="submenu" onClick={() => toggleMenu()}>
-                                        <Link href="/modern-saas" className={router.pathname === '/modern-saas' ? 'active' : ''}>
+                                        <Link href="/analytics" className={router.pathname === '/analytics' ? 'active' : ''}>
                                             {' '}
-                                            Modern Saas{' '}
-                                        </Link>
-                                        <Link href="/marketing" className={router.pathname === '/marketing' ? 'active' : ''}>
-                                            Sales Marketing
-                                            <span className="ml-1 whitespace-nowrap rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white">
-                                                New
-                                            </span>
-                                        </Link>
-                                        <Link href="/online-courses" className={router.pathname === '/online-courses' ? 'active' : ''}>
-                                            Online Courses
-                                        </Link>
-                                        <Link href="/creative-agency" className={router.pathname === '/creative-agency' ? 'active' : ''}>
-                                            Creative Agency
-                                        </Link>
-                                        <Link href="/personal-portfolio" className={router.pathname === '/personal-portfolio' ? 'active' : ''}>
-                                            Personal Portfolio
-                                            <span className="ml-1 whitespace-nowrap rounded bg-gradient-to-r from-[#ef4444] to-[#f97316] px-1.5 py-0.5 text-[10px] font-bold uppercase text-white">
-                                                New
-                                            </span>
+                                            Analytics{' '}
                                         </Link>
                                     </div>
-                                </li>
-                                <li>
-                                    <Link
-                                        href="/portfolio"
-                                        className={router.pathname === '/portfolio' || router.pathname === '/portfolio-detail' ? 'active' : ''}
-                                    >
-                                        Works
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link
-                                        href="/services"
-                                        className={router.pathname === '/services' || router.pathname === '/services-detail' ? 'active' : ''}
-                                    >
-                                        Service
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/team" className={router.pathname === '/team' ? 'active' : ''}>
-                                        Team
-                                    </Link>
                                 </li>
                                 <li>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>

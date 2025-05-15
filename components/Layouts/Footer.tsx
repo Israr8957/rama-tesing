@@ -69,8 +69,8 @@ const Footer = () => {
                                 </Link>
                             </li>
                         </ul>
-                        <img src="/assets/images/rama-sign.png" alt="footer-shape" className="absolute bottom-0 right-0 sm:left-0" />
-                        <img src="/assets/images/rama-sign.png" alt="footer-shape-dark" className="absolute bottom-0 right-0 hidden dark:block sm:left-0" />
+                        <img src="/assets/images/rama-sign1.png" alt="footer-shape" className="absolute bottom-0 right-0 sm:left-0" />
+                        <img src="/assets/images/rama-sign1.png" alt="footer-shape-dark" className="absolute bottom-0 right-0 hidden dark:block sm:left-0" />
                     </div>
                     <div>
                         <ul className="flex flex-col gap-3 font-bold">
@@ -78,21 +78,6 @@ const Footer = () => {
                             <li>
                                 <Link href="/" className="inline-block transition hover:scale-110 hover:text-secondary">
                                     Home
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/portfolio" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                    Portfolio
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/services" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                    Service
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/team" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                    Team
                                 </Link>
                             </li>
                             <li>
@@ -140,25 +125,15 @@ const Footer = () => {
                                     Privacy Policy
                                 </Link>
                             </li>
-                            <li>
-                                <Link href="/faq" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                    FAQs
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/blog" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                    Blog
-                                </Link>
-                            </li>
                         </ul>
                     </div>
                     <div>
                         <ul className="flex flex-col gap-3 font-bold">
                             <li className="mb-3 text-lg font-extrabold text-black dark:text-white">Information</li>
-                            <li>164 Brighton Ave, Allston, Maine, U.S. - 02134</li>
+                            <li>Al Victory Building, Second Floor Seef District, Manama 00000, BH</li>
                             <li>
                                 <a href="tel:+(617) 254-2333" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                    +(617) 254-2333
+                                    +(00) 0000000
                                 </a>
                             </li>
                         </ul>
@@ -169,7 +144,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="items-center justify-between text-center font-bold dark:text-white md:flex">
                         <div>
-                            Copyright© {new Date().getFullYear() + ' '}
+                            Copyright © {new Date().getFullYear() + ' '}
                             <Link href="/" className="text-primary transition hover:text-secondary">
                                 Rama Group
                             </Link>
