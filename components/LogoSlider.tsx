@@ -4,7 +4,7 @@ import 'swiper/css/navigation';
 import { Autoplay } from 'swiper';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
-import  Link  from 'next/link';
+import Link from 'next/link';
 const LogoSlider = () => {
     const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
@@ -35,37 +35,37 @@ const LogoSlider = () => {
         >
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/logo-1.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/logo-1.svg" alt="" className="mx-auto transition hover:scale-110" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/logo-2.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/logo-2.svg" alt="" className="mx-auto transition hover:scale-110" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/logo-3.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/logo-3.svg" alt="" className="mx-auto transition hover:scale-110" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/logo-4.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/logo-4.svg" alt="" className="mx-auto transition hover:scale-110" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/logo-5.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/logo-5.svg" alt="" className="mx-auto transition hover:scale-110" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/logo-6.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/logo-6.svg" alt="" className="mx-auto transition hover:scale-110" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/logo-7.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/logo-7.svg" alt="" className="mx-auto transition hover:scale-110" />
                 </Link>
             </SwiperSlide>
         </Swiper>
