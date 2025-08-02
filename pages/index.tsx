@@ -7,6 +7,7 @@ import LogoSlider from '../components/LogoSlider';
 import ClientSlider from '../components/ClientSlider';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper';
+import projects from '../data/viewProject';
 
 const Index = (props: any) => {
     const [activeTab, setActiveTab] = useState<string>('all');
@@ -547,7 +548,71 @@ const Index = (props: any) => {
                             </div>
                         </div>
                     </div>
+
                     <Swiper
+                        className="xl:w-[1680px]"
+                        loop={true}
+                        slidesPerView="auto"
+                        spaceBetween={30}
+                        autoplay={{
+                            delay: 3000,
+                            disableOnInteraction: false,
+                        }}
+                        navigation={{
+                            nextEl: '.portfolio-slider-button-next',
+                            prevEl: '.portfolio-slider-button-prev',
+                        }}
+                        modules={[Navigation, Autoplay]}
+                        breakpoints={{
+                            320: { slidesPerView: 1 },
+                            1024: { slidesPerView: 2 },
+                            1142: { slidesPerView: 3 },
+                        }}
+                        dir={isRtl ? 'rtl' : 'ltr'}
+                        key={isRtl ? 'true' : 'false'}
+                    >
+                        {projects.map((project) => (
+                            <SwiperSlide key={project.id}>
+                                <div className="bg-white dark:bg-gray-dark">
+                                    <div className="h-72 md:h-96">
+                                        <img src={project.image} alt={project.title} className="h-full w-full object-cover" />
+                                    </div>
+                                    <div className="flex items-center justify-between gap-2 p-4 md:p-7">
+                                        <div className="font-extrabold">
+                                            <h6 className="text-sm bg-gradient-to-r from-secondary to-primary bg-clip-text uppercase tracking-[10px] text-transparent">
+                                                {project.category}
+                                            </h6>
+                                            <h4 className="py-4 text-xl text-black dark:text-white">{project.title}</h4>
+                                            <Link
+                                                href={`/view-project?id=${project.id}`}
+                                                className="group flex items-center gap-4 font-semibold transition hover:text-secondary"
+                                            >
+                                                <span>View Project</span>
+                                                <span className="transition-all group-hover:pl-2">
+                                                    <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 6.75H0V5.25H12V0L18 6L12 12V6.75Z" fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                            </Link>
+                                        </div>
+                                        <div className="flex items-center gap-3 md:gap-7">
+                                            {project.tools.map((tool, index) => (
+                                                <div key={index} className="w-5 md:w-8">
+                                                    <img
+                                                        src={`/assets/images/casestudy/${tool}`}
+                                                        alt={tool}
+                                                        className="w-full"
+                                                    />
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+
+                    {/* <Swiper
                         className="xl:w-[1680px]"
                         loop={true}
                         slidesPerView="auto"
@@ -668,7 +733,7 @@ const Index = (props: any) => {
                                 </div>
                             </div>
                         </SwiperSlide>
-                    </Swiper>
+                    </Swiper> */}
                 </div>
             </section>
 

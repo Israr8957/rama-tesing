@@ -35,37 +35,37 @@ const LogoSlider = () => {
         >
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/client-logo/logo-1.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/Al Salam Bank logo.svg" alt="" className="mx-auto w-32 transition hover:scale-110 items-center justify-center flex" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/client-logo/logo-2.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/Flydubai logo.svg" alt="" className="mx-auto w-32 transition hover:scale-110 items-center justify-center flex" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/client-logo/logo-3.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/Harry Winston logo.svg" alt="" className="mx-auto w-30 transition hover:scale-110 items-center justify-center flex" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/client-logo/logo-4.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/hublot-seek logo.svg" alt="" className="mx-auto w-20 transition hover:scale-110 items-center justify-center flex" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/client-logo/logo-5.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/Patek phillipe logo.svg" alt="" className="mx-auto w-32 transition hover:scale-110 items-center justify-center flex" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/client-logo/logo-6.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/Tag-heuer logo.svg" alt="" className="mx-auto w-20 transition hover:scale-110 items-center justify-center flex" />
                 </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Link href="#">
-                    <img src="/assets/images/client-logo/logo-7.svg" alt="" className="mx-auto transition hover:scale-110" />
+                    <img src="/assets/images/client-logo/Zain Logo.svg" alt="" className="mx-auto w-32 transition hover:scale-110 items-center justify-center flex" />
                 </Link>
             </SwiperSlide>
         </Swiper>
