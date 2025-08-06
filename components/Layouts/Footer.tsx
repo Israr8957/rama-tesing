@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <footer className="mt-auto bg-white dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.03] dark:to-transparent">
-            <div className="container">
+            <div className="w-full xl:px-[144px] px-6">
                 <div className="grid gap-y-10 gap-x-4 py-14 sm:grid-cols-3 lg:grid-cols-5 lg:py-[100px]">
                     <div className="relative">
                         <img src="/assets/images/logo.png" alt="rama" className="h-7 w-auto" />
@@ -141,7 +141,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="bg-gradient-to-r from-[#FCF1F4] to-[#EDFBF9] py-5 dark:border-t-2 dark:border-white/5 dark:bg-none">
-                <div className="container">
+                <div className="w-full xl:px-[144px] px-6">
                     <div className="items-center justify-between text-center font-bold dark:text-white md:flex">
                         <div>
                             Copyright © {new Date().getFullYear() + ' '}

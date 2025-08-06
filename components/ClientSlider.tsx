@@ -45,6 +45,9 @@ const ClientSlider = ({
                             600: {
                                 slidesPerView: 2,
                             },
+                            1580: {
+                                slidesPerView: 3,
+                            },
                         }}
                         dir={isRtl ? 'rtl' : 'ltr'}
                         key={isRtl ? 'true' : 'false'}
@@ -52,13 +55,13 @@ const ClientSlider = ({
                         {feedbacks.map((feedback: any) => {
                             return (
                                 <SwiperSlide key={feedback.id}>
-                                    <div className="border-2 border-gray/10 bg-gray/[0.06] p-[30px]">
+                                    <div className="border-2 border-gray/10 bg-gray/[0.06] p-[30px] h-[530px] md:h-[430px] lg:h-[400px] xl:h-[350px] flex flex-col justify-between">
                                         <p className="font-semibold leading-7">{feedback.message}</p>
                                         <div className="mt-12 flex items-center gap-2.5">
-                                            <div>
+                                            {/* <div>
                                                 <img src="/assets/images/client-img1.png" alt="" />
-                                            </div>
-                                            <div>
+                                            </div> */}
+                                            <div >
                                                 <h5 className="text-lg font-bold text-black dark:text-white">{feedback.name}</h5>
                                                 <p className="mt-[2px] text-sm font-bold italic">{feedback.role}</p>
                                             </div>
@@ -111,12 +114,12 @@ const ClientSlider = ({
                         {feedbacks.map((feedback: any) => {
                             return (
                                 <SwiperSlide key={feedback.id}>
-                                    <div className="flex justify-between gap-7 p-7">
+                                    <div className="flex justify-between gap-7 p-7 h-[530px] md:h-[430px] lg:h-[400px] ">
                                         <div className="flex items-center gap-2.5">
                                             <div className="flex h-14 w-14 items-end justify-center overflow-hidden rounded-full border border-[rgba(125,132,150,0.2)] bg-gradient-to-t from-[rgba(125,132,150,0.1)] to-[125,132,150]">
                                                 <img src={feedback.thumbnail} alt="" className="h-full w-full object-cover" />
                                             </div>
-                                            <div>
+                                            <div >
                                                 <h5 className="text-lg font-bold text-black dark:text-white">{feedback.name}</h5>
                                                 <p className="text-sm font-bold italic">{feedback.role}</p>
                                             </div>

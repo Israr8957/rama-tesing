@@ -14,8 +14,8 @@ const RamaAnalytics = () => {
             </Head>
             <div className="overflow-x-hidden">
                 <section className="bg-black bg-[url(/assets/images/analytics/banner-bg.png)] bg-cover bg-top bg-no-repeat pt-[82px] lg:pt-[106px]">
-                    <div className="container lg:pt-7">
-                        <div className="relative">
+                    <div className="w-full xl:px-[144px] px-6 lg:pt-7">
+                        <div className="relative lg:flex lg:flex-row">
                             <div className="pt-14 pb-8 text-center text-white lg:w-3/5 lg:py-20 ltr:lg:text-left rtl:lg:text-right">
                                 <div className="mb-10 inline-flex items-center gap-3 rounded-xl bg-white/5 px-4 py-3.5">
                                     <div className="inline-flex items-center gap-1">
@@ -54,7 +54,7 @@ const RamaAnalytics = () => {
                                         <b>4.9 / 5 </b>ratings
                                     </span>
                                 </div>
-                                <h2 className="text-3xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px]">
+                                <h2 className="text-3xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[70px] xl:text-[80px] xl:leading-[100px]">
                                     <span className="text-secondary">Analyze Data </span>
                                     <span className="text-primary">Visualize Results </span>
                                 </h2>
@@ -66,7 +66,7 @@ const RamaAnalytics = () => {
                                 </Link>
                             </div>
                             <div
-                                className="top-[70px] w-full pb-7 ltr:right-0 rtl:left-0 rtl:right-auto lg:absolute lg:max-w-[630px] lg:pb-0 xl:ltr:-right-52 xl:rtl:-left-52"
+                                className="top-[70px] w-full lg:pt-[100px] pb-7 ltr:right-0 rtl:left-0 rtl:right-auto  lg:max-w-[630px] lg:pb-0 xl:ltr:-right-52 xl:rtl:-left-52"
                                 data-aos={isRtl ? 'fade-right' : 'fade-left'}
                                 data-aos-duration="1000"
                             >
@@ -84,7 +84,7 @@ const RamaAnalytics = () => {
                 </section>
 
                 <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:bg-none lg:py-20">
-                    <div className="container">
+                    <div className="w-full xl:px-[144px] px-6">
                         <div className="lg:w-1/2">
                             <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h6 className="!text-secondary">OUR FEATURES</h6>
@@ -266,7 +266,7 @@ const RamaAnalytics = () => {
                 </section>
 
                 <section className="bg-gradient-to-t from-white/[55%] to-transparent py-8 px-5 dark:bg-white/[0.03] dark:bg-none lg:py-20">
-                    <div className="relative mx-auto max-w-[1440px] rounded-[32px] bg-black pt-14">
+                    <div className="relative mx-auto max-w-[1540px] rounded-[32px] bg-black pt-14">
                         <img src="/assets/images/analytics/perfomance-design.svg" alt="" className="absolute bottom-0 ltr:right-0 rtl:left-0" />
                         <img src="/assets/images/analytics/dollers-icon.svg" alt="" className="absolute top-0 ltr:right-14 rtl:left-14" />
                         <div className="container">
@@ -338,7 +338,7 @@ const RamaAnalytics = () => {
                 </section>
 
                 <section className="py-14 dark:bg-gradient-to-t dark:from-white/[0.02] dark:to-transparent lg:py-20">
-                    <div className="container">
+                    <div className="w-full xl:px-[144px] px-6">
                         <div className="relative">
                             <div className="lg:w-2/3">
                                 <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
@@ -385,7 +385,7 @@ const RamaAnalytics = () => {
                 </section>
 
                 <section className="py-14 lg:py-20">
-                    <div className="container">
+                    <div className="w-full xl:px-[144px] px-6">
                         <div className="relative grid items-center gap-y-10 lg:grid-cols-2 lg:gap-4">
                             <img
                                 src="/assets/images/analytics/analysis-icon.svg"
@@ -429,7 +429,7 @@ const RamaAnalytics = () => {
                 </section>
 
                 <section className="bg-white/50 py-14 dark:bg-white/[0.03] lg:py-20">
-                    <div className="container">
+                    <div className="w-full xl:px-[144px] px-6">
                         <div className="heading mb-5 text-center">
                             <h6 className="!text-secondary">Drive smarter decisions with Rama Analytics</h6>
                             <h4 className="">Visualize Customer Sentiment and Response Trends</h4>
@@ -497,7 +497,7 @@ const RamaAnalytics = () => {
                 </section>
 
                 <section className="py-14 text-center lg:py-20">
-                    <div className="container">
+                    <div className="w-full xl:px-[144px] px-6">
                         <div className="heading mb-12 lg:mb-20">
                             <h6 className="!text-secondary">Our Services</h6>
                             <h4 className="">Solutions Designed to Support Your Growth</h4>

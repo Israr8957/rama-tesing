@@ -15,19 +15,27 @@ const Index = (props: any) => {
     const feedbacks = [
         {
             id: 1,
-            name: 'Ali Hassan',
-            role: 'Operations Manager, TechBahrain',
+            name: 'Dunia Mudara',
+            role: 'Marketing Manager McDonald’s – Bahrai',
             thumbnail: '/assets/images/client-img1.png',
             message:
-                "We’ve been partnering with Rama Group for over a year now, and their exceptional service in the import business has been a game-changer for us. As the Operations Manager at TechBahrain, I can confidently say that their attention to detail and timely deliveries have made our supply chain operations run smoother. Their team is always accessible, and they go above and beyond to handle all the complexities of international imports. We couldn't ask for a better partner. Highly recommended!",
+                "Our collaboration with Rama|OMD started over 3 years ago, and the team demonstrated great understanding of our business challenges, and always strive to come up with innovations and pro-active solutions especially on digital which resulted in better performance and continuous optimizations.",
         },
         {
             id: 2,
-            name: 'Sarah Al-Farsi',
-            role: 'Purchasing Director, GulfTrade',
+            name: 'Mahmood Qannati',
+            role: 'Chief Corporate Communications & Marketing Officer BisB – Bahrain',
             thumbnail: '/assets/images/client-img2.png',
             message:
-                ' Rama Group has been instrumental in the growth of our business in Bahrain. As the Purchasing Director for GulfTrade, I’ve worked with numerous suppliers, but none have matched the reliability and professionalism of Rama Group. Their deep knowledge of the import process, customs clearance, and timely shipments has made them a trusted partner. Their customer-first approach truly sets them apart. I highly recommend their services to anyone in need of efficient and hassle-free imports',
+                'The professional team at Rama|OMD have truly delivered on our advertising needs, year on year. With sound advice and consultation on the best media outlets and assets to use for our brand, we have experienced nothing but great success working together.',
+        },
+        {
+            id: 3,
+            name: 'Iqbal Dhanse',
+            role: 'General Manager Bahrain Jewelry Center – BJC',
+            thumbnail: '/assets/images/client-img2.png',
+            message:
+                'We would like to appreciate your service for handling the launch campaign for the Chopard & Patek Philippe Boutique, as well as our other brands during Jewelry Arabia since 2011.Your patience, determination, concern and sensitivity are really a big help for our company.',
         },
     ];
 
@@ -41,14 +49,14 @@ const Index = (props: any) => {
                         alt="banner-rightIcon"
                         className="absolute right-0 -top-4 sm:right-[250px] lg:right-[150px]"
                     />
-                    <div className="container">
-                        <div className="relative bg-none bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
+                    <div className="w-full xl:px-[144px] px-6">
+                        <div className="relative bg-none bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36 ">
                             <div className="relative z-[1] text-center text-white lg:w-3/5 ltr:lg:text-left rtl:lg:text-right xl:w-1/2">
-                                <h2 className="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[50px] lg:leading-[70px] ">
+                                <h2 className="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[50px] lg:leading-[70px] xl:text-[60px] xl:leading-[80px]">
                                     Empowering Your <span className="italic text-primary">Business</span> <span className="italic text-secondary">Growth</span>{' '}
                                     in Middle East
                                 </h2>
-                                <p className="my-8 text-lg lg:w-[90%] ">
+                                <p className="my-8 text-lg lg:w-[90%] xl:text-xl">
                                     Integrated business solutions for ambitious companies in Bahrain that need a trusted partner to navigate media, marketing,
                                     and technology.
                                 </p>
@@ -57,7 +65,7 @@ const Index = (props: any) => {
                                 </Link>
                             </div>
                             <div
-                                className="bottom-0 mx-auto mt-5 mb-2 w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:absolute lg:mb-0 lg:mt-0 xl:w-[650px]"
+                                className="bottom-0 mx-auto mt-5 mb-2 w-auto ltr:right-0 rtl:left-0 md:w-[540px] lg:absolute lg:mb-0 lg:mt-0 xl:w-[700px]"
                                 data-aos={isRtl ? 'fade-right' : 'fade-left'}
                                 data-aos-duration="1000"
                                 data-aos-offset="0"
@@ -69,7 +77,7 @@ const Index = (props: any) => {
                     </div>
                 </div>
             </div>
-            <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
+            {/* <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
                         <h6>High - Impact Services</h6>
@@ -243,11 +251,11 @@ const Index = (props: any) => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="bg-gradient-to-t from-transparent to-white/[25%] pt-10 dark:bg-gradient-to-b dark:from-white/5 dark:to-transparent lg:py-20">
-                <div className="container">
-                    <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-28">
-                        <div className="order-2 lg:order-1">
+                <div className="w-full xl:px-[144px] px-6 ">
+                    <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-28 xl:gap-60">
+                        <div className="order-2 lg:order-1 xl:order-1">
                             <div className="heading mb-0 text-center ltr:sm:text-left rtl:sm:text-right">
                                 <h6 className="!text-secondary">Results-Driven Marketing for Ambitious Brands</h6>
                                 <h4>
@@ -294,7 +302,7 @@ const Index = (props: any) => {
                                 Book a Free Consultation
                             </button>
                         </div>
-                        <div className="order-1 w-full max-w-[560px] lg:order-2">
+                        <div className="order-1 w-full max-w-[600px] lg:order-2">
                             <img src="/assets/images/marketing/marketing3.png" className="rtl:rotate-y-180" alt="" />
                         </div>
                     </div>
@@ -315,7 +323,7 @@ const Index = (props: any) => {
             </section>
 
             <section className="mt-14 mb-10 bg-transparent bg-gradient-to-t from-transparent to-white/[55%] pt-20 dark:bg-gradient-to-b dark:from-white/5 dark:to-transparent md:mt-20">
-                <div className="container">
+                <div className="w-full xl:px-[144px] px-6">
                     <div className="heading mb-12 text-center md:!mb-[90px] lg:max-w-[584px] ltr:lg:text-left rtl:lg:text-right">
                         <h4 className="!font-black">
                             What <span className="bg-secondary p-1 text-white">We</span> Do
@@ -325,7 +333,9 @@ const Index = (props: any) => {
                     <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3" data-aos="fade-up" data-aos-duration="1000">
                         <div className="rounded-[10px] border-2 border-transparent bg-white p-[30px] shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] duration-200 hover:border-2 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:shadow-none">
                             <span>
-                                <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                <img src="/assets/images/casestudy/OOH Advertising (2).svg" className="" alt="" />
+                                {/* <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         fillRule="evenodd"
                                         clipRule="evenodd"
@@ -344,15 +354,17 @@ const Index = (props: any) => {
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                     />
-                                </svg>
+                                </svg> */}
                             </span>
                             <h3 className="mt-7 text-[22px] font-extrabold text-black dark:text-white">OOH Advertising:</h3>
                             <p className="mt-4 text-lg font-semibold">Strategic placements that get attention—billboards, lampposts, malls, and more.</p>
                         </div>
-                        <div className="mt-0 lg:-mt-7">
+                        <div className="mt-0 ">
                             <div className="rounded-[10px] border-2 border-transparent bg-white p-[30px] shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] duration-200 hover:border-2 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:shadow-none">
                                 <span>
-                                    <svg width="52" height="50" viewBox="0 0 52 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                    <img src="/assets/images/casestudy/Paid Media (2).svg" className="" alt="" />
+                                    {/* <svg width="52" height="50" viewBox="0 0 52 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M32.7932 33.5173C32.7932 33.5173 10.5172 28.9311 7.8966 28.2759C5.27588 27.6208 2 24.1858 2 19.7587C2 15.3314 5.27588 11.8966 7.8966 11.2414C10.5172 10.5862 32.7932 6 32.7932 6"
                                             fill="#016BFF"
@@ -396,16 +408,17 @@ const Index = (props: any) => {
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                         />
-                                    </svg>
+                                    </svg> */}
                                 </span>
                                 <h3 className="mt-7 text-[22px] font-extrabold text-black dark:text-white">Paid Media</h3>
                                 <p className="mt-4 text-lg font-semibold">Facebook, Instagram, TikTok, Google—you name it. We plan, launch & optimize.</p>
                             </div>
                         </div>
-                        <div className="mt-0 lg:-mt-14">
+                        <div className="mt-0">
                             <div className="rounded-[10px] border-2 border-transparent bg-white p-[30px] shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] duration-200 hover:border-2 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:shadow-none">
                                 <span>
-                                    <svg width="52" height="50" viewBox="0 0 52 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <img src="/assets/images/casestudy/Content Creation (2).svg" className="" alt="" />
+                                    {/* <svg width="52" height="50" viewBox="0 0 52 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M18.8344 40.6688C28.1318 40.6688 35.6688 33.1318 35.6688 23.8344C35.6688 14.537 28.1318 7 18.8344 7C9.53703 7 2 14.537 2 23.8344C2 33.1318 9.53703 40.6688 18.8344 40.6688Z"
                                             fill="#66DA78"
@@ -417,7 +430,7 @@ const Index = (props: any) => {
                                         />
                                         <path d="M30.5432 36.4171L37.1433 43" stroke="#66DA78" strokeWidth="3" />
                                         <path d="M30.5432 36.4171L37.1433 43" stroke="#66DA78" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg>
+                                    </svg> */}
                                 </span>
                                 <h3 className="mt-7 text-[22px] font-extrabold text-black dark:text-white">Content Creation</h3>
                                 <p className="mt-4 text-lg font-semibold">Engaging videos, graphics, and campaigns that convert.</p>
@@ -425,7 +438,8 @@ const Index = (props: any) => {
                         </div>
                         <div className="rounded-[10px] border-2 border-transparent bg-white p-[30px] shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] duration-200 hover:border-2 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:shadow-none">
                             <span>
-                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <img src="/assets/images/casestudy/Social Media Management (2).svg" className="" alt="" />
+                                {/* <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         opacity="0.2"
                                         fillRule="evenodd"
@@ -449,15 +463,16 @@ const Index = (props: any) => {
                                         d="M18.0527 34.901L23.4531 31.7245C24.7679 30.9511 24.7679 29.0496 23.4531 28.2761L18.0527 25.0996C16.7192 24.3152 15.0382 25.2767 15.0382 26.8238V33.1768C15.0382 34.7239 16.7192 35.6854 18.0527 34.901ZM19.4049 37.1999C16.2934 39.0301 12.371 36.7867 12.371 33.1768V26.8238C12.371 23.2139 16.2934 20.9705 19.4049 22.8006L24.8053 25.9772C27.8733 27.7818 27.8733 32.2187 24.8053 34.0234L19.4049 37.1999Z"
                                         fill="#FF5B5D"
                                     />
-                                </svg>
+                                </svg> */}
                             </span>
                             <h3 className="mt-7 text-[22px] font-extrabold text-black dark:text-white">Social Media Management</h3>
                             <p className="mt-4 text-lg font-semibold">Grow your audience and keep them engaged.</p>
                         </div>
-                        <div className="mt-0 lg:-mt-4">
+                        <div className="mt-0">
                             <div className="rounded-[10px] border-2 border-transparent bg-white p-[30px] shadow-[-20px_30px_70px_rgba(219,222,225,0.4)] duration-200 hover:border-2 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:shadow-none">
                                 <span>
-                                    <svg width="62" height="60" viewBox="0 0 62 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <img src="/assets/images/casestudy/Performance Reporting (2).svg" className="" alt="" />
+                                    {/* <svg width="62" height="60" viewBox="0 0 62 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             fillRule="evenodd"
                                             clipRule="evenodd"
@@ -469,7 +484,7 @@ const Index = (props: any) => {
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                         />
-                                    </svg>
+                                    </svg> */}
                                 </span>
                                 <h3 className="mt-7 text-[22px] font-extrabold text-black dark:text-white">Performance Reporting</h3>
                                 <p className="mt-4 text-lg font-semibold">Transparent data, clear results.</p>
@@ -490,7 +505,7 @@ const Index = (props: any) => {
             </section>
 
             <section className="bg-gradient-to-b from-transparent to-white/50 py-12 dark:to-white/[0.02] lg:py-12">
-                <div className="container">
+                <div className=" w-full xl:px-[144px] px-6">
                     <h5 className="mt-[30px] text-3xl font-extrabold text-black dark:text-white md:text-[50px] md:leading-[70px] xl:w-3/5">
                         What Our Clients Say
                     </h5>
@@ -510,7 +525,7 @@ const Index = (props: any) => {
                         data-aos-duration="1000"
                     />
                 </div>
-                <div className="container relative z-[1]">
+                <div className="w-full xl:px-[144px] px-6 relative z-[1]">
                     <div className="mb-10 max-w-[410px]">
                         <div className="mb-5 flex items-center gap-10">
                             <h6 className="text-lg font-extrabold uppercase text-secondary">
@@ -550,7 +565,7 @@ const Index = (props: any) => {
                     </div>
 
                     <Swiper
-                        className="xl:w-[1680px]"
+                        className=""
                         loop={true}
                         slidesPerView="auto"
                         spaceBetween={30}
@@ -566,7 +581,7 @@ const Index = (props: any) => {
                         breakpoints={{
                             320: { slidesPerView: 1 },
                             1024: { slidesPerView: 2 },
-                            1142: { slidesPerView: 3 },
+                            1620: { slidesPerView: 3 },
                         }}
                         dir={isRtl ? 'rtl' : 'ltr'}
                         key={isRtl ? 'true' : 'false'}
@@ -577,7 +592,7 @@ const Index = (props: any) => {
                                     <div className="h-72 md:h-96">
                                         <img src={project.image} alt={project.title} className="h-full w-full object-cover" />
                                     </div>
-                                    <div className="flex items-center justify-between gap-2 p-4 md:p-7">
+                                    {/* <div className="flex items-center justify-between gap-2 p-4 md:p-7">
                                         <div className="font-extrabold">
                                             <h6 className="text-sm bg-gradient-to-r from-secondary to-primary bg-clip-text uppercase tracking-[10px] text-transparent">
                                                 {project.category}
@@ -606,7 +621,7 @@ const Index = (props: any) => {
                                                 </div>
                                             ))}
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </SwiperSlide>
                         ))}
@@ -737,7 +752,7 @@ const Index = (props: any) => {
                 </div>
             </section>
 
-            <section
+            {/* <section
                 className="py-14 dark:!bg-none lg:py-[100px]"
                 style={{
                     background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 54.69%)',
@@ -745,7 +760,7 @@ const Index = (props: any) => {
             >
                 {' '}
                 <CounterComponent title="Company Facts" />
-            </section>
+            </section> */}
             <section className="relative bg-white py-12 dark:bg-black lg:py-24">
                 {/* <span className="absolute bottom-0 hidden max-w-[120px] ltr:right-0 rtl:left-0 sm:block xl:max-w-[250px]">
                     <svg className="h-full w-full" width="300" height="229" viewBox="0 0 300 229" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -923,7 +938,7 @@ const Index = (props: any) => {
                         </defs>
                     </svg>
                 </span> */}
-                <div className="container">
+                <div className="w-full xl:px-[144px] px-6">
                     <div className="heading mb-0 w-full text-center lg:max-w-[478px] ltr:lg:text-left rtl:lg:text-right">
                         <h6 className="inline-block bg-secondary/10 px-2.5 py-2 !text-secondary">why choose Rama</h6>
                         <h4 className="!font-black">
@@ -1046,7 +1061,7 @@ const Index = (props: any) => {
                 </div>
             </section>
             <section className="bg-black bg-[url(/assets/images/overlay-noise.png)] bg-cover bg-no-repeat py-14 md:py-20">
-                <div className="container">
+                <div className="w-full xl:px-[144px] px-6">
                     <div className="flex flex-col items-center gap-8 lg:flex-row">
                         <div className="flex-1">
                             <div className="heading-gradiant">
@@ -1097,14 +1112,14 @@ const Index = (props: any) => {
                                 Book a Free Consultation
                             </button>
                         </div>
-                        <div className="max-w-[370px] flex-none" data-aos="fade-up" data-aos-duration="1000">
+                        <div className="max-w-[370px] xl:w-[450] flex-none" data-aos="fade-up" data-aos-duration="1000">
                             <img src="/assets/images/nft-img.png" alt="" className="h-full w-full object-cover" />
                         </div>
                     </div>
                 </div>
             </section>
             <section className="from-transparent to-white/[25%] py-14 pt-10 dark:bg-gradient-to-b dark:from-white/5 dark:to-transparent lg:py-[100px]  ">
-                <div className="container">
+                <div className="w-full xl:px-[144px] px-6">
                     <div className="relative z-10 lg:flex">
                         <div className="heading text-center lg:mb-0 lg:w-1/3 ltr:lg:pr-10 ltr:lg:text-left rtl:lg:pl-10 rtl:lg:text-right">
                             <h6>Get In Touch.</h6>

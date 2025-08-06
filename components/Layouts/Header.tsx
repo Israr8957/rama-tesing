@@ -28,7 +28,7 @@ const Header = (props: any) => {
 
     return (
         <header className={`sticky top-0 z-50 bg-black/10 duration-300 ${props.className}`}>
-            <div className="container">
+            <div className="w-full xl:px-[144px] px-6">
                 <div className="flex items-center justify-between py-5 lg:py-0">
                     <Link href="/">
                         <img src="/assets/images/logo.svg" alt="rama" className="h-10 w-full" />
@@ -72,7 +72,8 @@ const Header = (props: any) => {
                                         </div>
                                     </Link>
                                     <div className="submenu" onClick={() => toggleMenu()}>
-                                        <Link href="/analytics" className={router.pathname === '/analytics' ? 'active' : ''}>
+                                        <Link href="/#
+                                        " className={router.pathname === '/analytics' ? 'active' : ''}>
                                             {' '}
                                             Analytics{' '}
                                         </Link>

@@ -8,14 +8,14 @@ const Aboutus = () => {
     const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
-        <div>
+        <div className="">
             <Head>
                 <title>About Us | Rama Group – Empowering Your Business Growth in Middle East</title>
             </Head>
             <div className="">
                 <div className="relative">
-                    <div className="container">
-                        <div className="items-center justify-between py-10 md:flex md:h-[400px] md:py-0">
+                    <div className="w-full xl:px-[144px] px-6">
+                        <div className="items-center justify-between py-10 md:flex md:h-[350px] md:py-0">
                             <div className="heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
                                 <h6>About Us</h6>
                                 <h4 className="!text-white">About Rama Group</h4>
@@ -26,12 +26,12 @@ const Aboutus = () => {
                 </div>
             </div>
 
-            <section className="bg-gradient-to-t from-white/[56%] to-white/0 py-14 dark:!bg-none lg:py-[100px]">
+            {/* <section className="bg-gradient-to-t from-white/[56%] to-white/0 py-14 dark:!bg-none lg:py-[100px]">
                 <CounterComponent title="Company Facts" />
-            </section>
+            </section> */}
 
-            <section className="relative pt-14 lg:pb-48 lg:pt-[100px]">
-                <div className="container relative z-[1]">
+            <section className="relative pt-4 lg:pb-48 lg:pt-[10px]">
+                <div className="w-full xl:px-[144px] px-6 relative z-[1]">
                     <div className="text-center lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
                         <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
                             <h6>Who are we?</h6>
@@ -153,7 +153,7 @@ const Aboutus = () => {
             </section>
 
             <section className="py-14 lg:py-[100px]">
-                <div className="container">
+                <div className="w-full xl:px-[144px] px-6">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h6>Growth</h6>
                         <h4>40% Growth in last year</h4>
